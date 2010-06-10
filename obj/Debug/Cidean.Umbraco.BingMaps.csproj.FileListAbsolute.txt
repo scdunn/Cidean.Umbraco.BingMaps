@@ -1,0 +1,5 @@
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\bin\Cidean.Umbraco.BingMaps.dll
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\bin\Cidean.Umbraco.BingMaps.pdb
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\obj\Debug\Cidean.Umbraco.BingMaps.dll
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\obj\Debug\Cidean.Umbraco.BingMaps.pdb

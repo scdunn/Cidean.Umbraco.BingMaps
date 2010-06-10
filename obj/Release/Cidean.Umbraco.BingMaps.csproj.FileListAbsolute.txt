@@ -1,0 +1,9 @@
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\bin\Cidean.Umbraco.BingMaps.dll
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\bin\Cidean.Umbraco.BingMaps.pdb
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\obj\Release\Cidean.Umbraco.BingMaps.dll
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\obj\Release\Cidean.Umbraco.BingMaps.pdb
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\bin\controls.dll
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\bin\AjaxControlToolkit.dll
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\bin\controls.pdb
+C:\Users\Chris\Desktop\Cidean.Umbraco.BingMaps\Cidean.Umbraco.BingMaps\bin\controls.xml
