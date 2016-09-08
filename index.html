@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bingmapsforumbraco by scdunn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Bingmapsforumbraco</h1>
+      <h2 class="project-tagline">Bing maps for Umbraco version 4.7 or less (not for version 7+)</h2>
+      <a href="https://github.com/scdunn/bingMapsForUmbraco" class="btn">View on GitHub</a>
+      <a href="https://github.com/scdunn/bingMapsForUmbraco/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/scdunn/bingMapsForUmbraco/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="readme" class="anchor" href="#readme" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>README</h1>
+
+<h2>
+<a id="bing-maps-for-umbraco" class="anchor" href="#bing-maps-for-umbraco" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>bing Maps for Umbraco</h2>
+
+<p>Package for Umbraco: <a href="https://our.umbraco.org/projects/backoffice-extensions/bing-maps-for-umbraco/">https://our.umbraco.org/projects/backoffice-extensions/bing-maps-for-umbraco/</a></p>
+
+<p>This package allows you to integrate Microsoft™ bing Maps into your Umbraco implementations.  In order to use this package you will need to register for an API key with Microsoft at <a href="https://www.bingmapsportal.com/">https://www.bingmapsportal.com/</a>.</p>
+
+<p>Installation requires write access to the /bin and /umbraco folders.
+Two macros are provided for inserting maps within your content based on the level of functionality and display configuration needed within the map.</p>
+
+<h3>
+<a id="bing-map-basic" class="anchor" href="#bing-map-basic" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bing Map (Basic)</h3>
+
+<p>This macro provides the ability to display a map location and surrounding businesses with a specified keyword.  A marker will be displayed for each location returned from the search.</p>
+
+<h3>
+<a id="bing-map-advanced" class="anchor" href="#bing-map-advanced" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bing Map (Advanced)</h3>
+
+<p>This macro provides the ability to display multiple location searches and targeted points within a single map.  A single parameter is required which allows you to select a content node containing the map definition information.
+The map, place and search information are stored in content nodes of type bing Map, bing Map Place and bing Map Search.  The bing Map nodes store display information for the map, while the bing Map Place and Search, child nodes of the bing map, store location information or search keywords for the pushpins.
+The map definition nodes do not display as content pages and are not intended to be viewed directly.  The macro references the selected node specified in the parameters for information about the map and the places to display.
+You will need to define your bing Map node prior to inserting the macro onto one of your existing content nodes.  By default you can create bing Map nodes at the root of your website.  To store your bing Map nodes under the page where you are displaying the macro, you will need to check the 'bing Map' document type from the structure tab of your own document type.
+Each map is self contained and therefore you can insert multiple maps (Advanced or Basic) within a single RichTextEditor or template.</p>
+
+<h3>
+<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notes:</h3>
+
+<p>When using the search capabilities of this package, please be aware that Microsoft's search results for certain locations do not always return results for even common words.</p>
+
+<h3>
+<a id="future-enhancements" class="anchor" href="#future-enhancements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Future Enhancements:</h3>
+
+<ul>
+<li>Culture/Language specific results</li>
+<li>Layering including Hide and Show</li>
+<li>Displaying location results (in text format) next to the map</li>
+<li>Paging of location results</li>
+<li>Unit (store) locator</li>
+<li>Any feedback on improving existing features or new features are greatly appreciated.
+###Related Links:###</li>
+<li>Register for API Key: <a href="https://www.bingmapsportal.com/">https://www.bingmapsportal.com/</a>.</li>
+<li>Microsoft TOS: <a href="http://www.microsoft.com/maps/product/terms.html">http://www.microsoft.com/maps/product/terms.html</a>
+</li>
+<li>bing™ Maps Package License</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/scdunn/bingMapsForUmbraco">Bingmapsforumbraco</a> is maintained by <a href="https://github.com/scdunn">scdunn</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
